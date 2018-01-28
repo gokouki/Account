@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="czEjMb2" class="czEjMb2" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/bootstrap/form/form,$model/UI2/system/components/justep/input/password,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/baasData,$model/UI2/system/components/justep/messageDialog/messageDialog,">  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model1" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="czEjMb2" class="czEjMb2"/>  
+  <span xmlns="" component="$model/UI2/system/components/justep/messageDialog/messageDialog" xid="messageDialog" style="left:9px;top:351px;" data-bind="component:{name:'$model/UI2/system/components/justep/messageDialog/messageDialog'}" data-config="{&quot;type&quot;:&quot;OK&quot;}" __cid="czEjMb2" class="czEjMb2"> 
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal-overlay czEjMb2" __cid="czEjMb2"></div>  
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal czEjMb2" __cid="czEjMb2">  
+      <div class="x-modal-inner czEjMb2" __cid="czEjMb2"> 
+        <div class="x-modal-title czEjMb2" __cid="czEjMb2"/>  
+        <div class="x-modal-text czEjMb2" __cid="czEjMb2"/>  
+        <input class="x-modal-prompt-input czEjMb2" type="text" __cid="czEjMb2"/> 
+      </div>  
+      <div class="x-modal-buttons czEjMb2" __cid="czEjMb2"> 
+        <a class="x-modal-button x-modal-button-bold OK czEjMb2" value="ok" __cid="czEjMb2">确定</a>  
+        <a class="x-modal-button x-modal-button-bold Yes czEjMb2" value="yes" __cid="czEjMb2">是</a>  
+        <a class="x-modal-button x-modal-button-bold No czEjMb2" value="no" __cid="czEjMb2">否</a>  
+        <a class="x-modal-button x-modal-button-bold Cancel czEjMb2" value="cancel" __cid="czEjMb2">取消</a> 
+      </div> 
+    </div> 
+  </span>  
+  <div xmlns="" component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full czEjMb2" xid="contents1" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0}" __cid="czEjMb2"> 
+    <div class="x-contents-content active czEjMb2" xid="content1" style="background-image: url(@justepContextPath@/v_b3c256bf4f774616991899d20f654314l_zh_CNs_desktopd_pc/acc/img/loginbg4.jpg);" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="czEjMb2"> 
+      <div xid="div1" style="margin:10px 50px 0px 50px;" align="center" __cid="czEjMb2" class="czEjMb2"> 
+        <img src="@justepContextPath@/v_3ca399f2a2b24f369b764c07a5a58a4el_zh_CNs_desktopd_pc/acc/img/qztc.jpg" alt="" xid="image1" height="250" __cid="czEjMb2" class="czEjMb2"/> 
+      </div>  
+      <div class="form-vertical czEjMb2" component="$model/UI2/system/components/bootstrap/form/form" xid="form1" data-bind="component:{name:'$model/UI2/system/components/bootstrap/form/form'}" __cid="czEjMb2"> 
+        <div xid="div12" class="form-group czEjMb2" style="margin-right:auto;margin-left:auto;width:95%;" __cid="czEjMb2"> 
+          <label xid="label4" class="sr-only czEjMb2" __cid="czEjMb2">用户名</label>  
+          <div xid="div14" class="input-group czEjMb2" __cid="czEjMb2"> 
+            <div xid="div15" class="input-group-addon czEjMb2" __cid="czEjMb2"> 
+              <span class="glyphicon glyphicon-user czEjMb2" __cid="czEjMb2"/> 
+            </div>  
+            <input component="$model/UI2/system/components/justep/input/input" class="form-control czEjMb2" xid="username" data-bind="component:{name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;请输入用户名&quot;}" __cid="czEjMb2"/> 
+          </div> 
+        </div>  
+        <div xid="div13" class="form-group czEjMb2" style="margin-right:auto;margin-left:auto;width:95%;" __cid="czEjMb2"> 
+          <label xid="label5" class="sr-only czEjMb2" __cid="czEjMb2">密码</label>  
+          <div xid="div16" class="input-group czEjMb2" __cid="czEjMb2"> 
+            <div xid="div17" class="input-group-addon czEjMb2" __cid="czEjMb2"> 
+              <span class="glyphicon glyphicon-edit czEjMb2" __cid="czEjMb2"/> 
+            </div>  
+            <input component="$model/UI2/system/components/justep/input/password" class="form-control czEjMb2" xid="password" type="password" data-bind="component:{name:'$model/UI2/system/components/justep/input/password'}" data-config="{&quot;placeHolder&quot;:&quot;请输入密码&quot;}" __cid="czEjMb2"/> 
+          </div> 
+        </div>  
+        <div xid="formGroup1" class="form-group czEjMb2" style="margin-right:auto;margin-left:auto;width:95%;" __cid="czEjMb2"> 
+          <label xid="col1" class="sr-only czEjMb2" __cid="czEjMb2">密码</label>  
+          <div xid="col2" class="input-group czEjMb2" __cid="czEjMb2"> 
+            <div xid="div2" class="input-group-addon czEjMb2" __cid="czEjMb2"> 
+              <span class="glyphicon glyphicon-edit czEjMb2" xid="span3" __cid="czEjMb2"/> 
+            </div>  
+            <input component="$model/UI2/system/components/justep/input/password" class="form-control czEjMb2" xid="password2" type="password" data-bind="component:{name:'$model/UI2/system/components/justep/input/password'}" data-config="{&quot;placeHolder&quot;:&quot;请再输入一次密码&quot;}" __cid="czEjMb2"/> 
+          </div> 
+        </div> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row czEjMb2" xid="row4" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="czEjMb2"> 
+        <div class="x-col czEjMb2" xid="col10" style="text-align:center;" __cid="czEjMb2"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn x-blue btn-block czEjMb2" xid="loginBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:loginBtnClick" data-config="{&quot;label&quot;:&quot;注册新用户&quot;}" __cid="czEjMb2"> 
+            <i xid="i1" __cid="czEjMb2" class="czEjMb2"/>  
+            <span xid="span1" __cid="czEjMb2" class="czEjMb2">注册新用户</span> 
+          </a>  
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-xs pull-left czEjMb2" xid="ret" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:retClick" data-config="{&quot;label&quot;:&quot;返回登陆界面&quot;}" __cid="czEjMb2"> 
+            <i xid="i2" __cid="czEjMb2" class="czEjMb2"/>  
+            <span xid="span4" __cid="czEjMb2" class="czEjMb2">返回登陆界面</span> 
+          </a> 
+        </div> 
+      </div>  
+      <div xid="div3" style="margin:50px 20px 50px 20px;height:50px;text-align:center;" __cid="czEjMb2" class="czEjMb2"> 
+        <span xid="span2" __cid="czEjMb2" class="czEjMb2">© 王巧辉 &amp; 丁昌盛</span> 
+      </div> 
+    </div> 
+  </div> 
+</div>

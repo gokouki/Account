@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" xid="window" class="window cyUNZ7v" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cyUNZ7v" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/windowDialog/windowDialog,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/output/output,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/baasData,,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/windowContainer/windowContainer,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/wing/wing,$model/UI2/system/components/justep/wing/child,">
+  <xhtml:style xmlns:xhtml="http://www.w3.org/1999/xhtml">.x-wing-left.cyUNZ7v &gt; .x-titlebar.cyUNZ7v{background-color: orange}</xhtml:style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onLoad:modelLoad" __cid="cyUNZ7v" class="cyUNZ7v"/>  
+  <div component="$model/UI2/system/components/justep/wing/wing" class="x-wing cyUNZ7v" xid="wing" data-bind="component:{name:'$model/UI2/system/components/justep/wing/wing'}" data-config="{&quot;display&quot;:&quot;push&quot;}" __cid="cyUNZ7v"> 
+    <div class="x-wing-left cyUNZ7v" xid="left" component="$model/UI2/system/components/justep/wing/child" data-bind="component:{name:'$model/UI2/system/components/justep/wing/child'}" __cid="cyUNZ7v"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cyUNZ7v" xid="titleBar1" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;设置&quot;}" __cid="cyUNZ7v"> 
+        <div class="x-titlebar-left cyUNZ7v" xid="div2" __cid="cyUNZ7v"/>  
+        <div class="x-titlebar-title cyUNZ7v" xid="div3" __cid="cyUNZ7v">设置</div>  
+        <div class="x-titlebar-right  cyUNZ7v" xid="div4" __cid="cyUNZ7v">
+          <div class="empty cyUNZ7v" __cid="cyUNZ7v"/>
+        </div> 
+      </div>  
+      <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link cyUNZ7v" xid="classSetting" style="width:100%;" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:classSettingClick" data-config="{&quot;label&quot;:&quot;设置分类&quot;}" __cid="cyUNZ7v"> 
+        <i xid="i1" __cid="cyUNZ7v" class="cyUNZ7v"/>  
+        <span xid="span1" __cid="cyUNZ7v" class="cyUNZ7v">设置分类</span>
+      </a>
+    </div>  
+    <div class="x-wing-content cyUNZ7v" xid="content1" component="$model/UI2/system/components/justep/wing/child" data-bind="component:{name:'$model/UI2/system/components/justep/wing/child'}" __cid="cyUNZ7v"> 
+      <div class="x-wing-backdrop cyUNZ7v" xid="div1" __cid="cyUNZ7v"/>  
+      <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full cyUNZ7v" xid="pages" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0,&quot;slidable&quot;:true,&quot;wrap&quot;:false}" __cid="cyUNZ7v">
+        <div class="x-contents-content active cyUNZ7v" xid="main" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cyUNZ7v">
+          <div component="$model/UI2/system/components/justep/windowContainer/windowContainer" class="x-window-container cyUNZ7v" xid="mainContainer" __component-context__="block" data-bind="component:{name:'$model/UI2/system/components/justep/windowContainer/windowContainer'}" data-config="{&quot;src&quot;:&quot;$model/UI2/acc/list.w&quot;}" __cid="cyUNZ7v">
+            <div component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" class="window ciiqumm" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="ciiqumm" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/windowDialog/windowDialog,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/output/output,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/baasData,">  
+              <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">null</style>  
+              <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="ciiqumm" class="ciiqumm"></div>  
+              <span xmlns="" component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="windowDialog1" style="top:12px;left:110px;" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-events="onReceived:windowDialog1Received" data-config="{&quot;src&quot;:&quot;$model/UI2/acc/detail.w&quot;}" __cid="ciiqumm" class="ciiqumm">  
+                <result concept="accData" operation="edit" origin="accData" xid="default25" __cid="ciiqumm" class="ciiqumm"> 
+                  <mapping from="fID" to="fID" locator="true" xid="default26" __cid="ciiqumm" class="ciiqumm"/>  
+                  <mapping from="username" to="username" xid="default27" __cid="ciiqumm" class="ciiqumm"/>  
+                  <mapping from="fCreateTime" to="fCreateTime" xid="default28" __cid="ciiqumm" class="ciiqumm"/>  
+                  <mapping from="fDate" to="fDate" xid="default29" __cid="ciiqumm" class="ciiqumm"/>  
+                  <mapping from="fMoney" to="fMoney" xid="default30" __cid="ciiqumm" class="ciiqumm"/>  
+                  <mapping from="fDescription" to="fDescription" xid="default31" __cid="ciiqumm" class="ciiqumm"/>  
+                  <mapping from="fType" to="fType" xid="default32" __cid="ciiqumm" class="ciiqumm"/>  
+                  <mapping from="fClass" to="fClass" xid="default33" __cid="ciiqumm" class="ciiqumm"/> 
+                </result>  
+                <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay ciiqumm" __cid="ciiqumm"></div>  
+                <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog ciiqumm" style="display:none;" __cid="ciiqumm">  
+                  <div class="x-dialog-title ciiqumm" __cid="ciiqumm"> 
+                    <button class="close ciiqumm" __cid="ciiqumm"> 
+                      <span __cid="ciiqumm" class="ciiqumm">×</span> 
+                    </button>  
+                    <div class="x-dialog-title-text ciiqumm" __cid="ciiqumm"/> 
+                  </div>  
+                  <div class="x-dialog-body ciiqumm" __cid="ciiqumm"/> 
+                </div> 
+              </span>  
+              <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pceiqeUf-iosstatusbar ciiqumm" xid="panel1" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="ciiqumm">  
+                <div class="x-panel-top ciiqumm" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="ciiqumm"> 
+                  <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar ciiqumm" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;记账本&quot;}" __cid="ciiqumm"> 
+                    <div class="x-titlebar-left ciiqumm" __cid="ciiqumm"> 
+                      <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon ciiqumm" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:backBtnClick" data-config="{&quot;icon&quot;:&quot;icon-navicon-round&quot;,&quot;label&quot;:&quot;&quot;}" __cid="ciiqumm"> 
+                        <i class="icon-navicon-round ciiqumm" __cid="ciiqumm"/>  
+                        <span __cid="ciiqumm" class="ciiqumm"/> 
+                      </a> 
+                    </div>  
+                    <div class="x-titlebar-title ciiqumm" __cid="ciiqumm">记账本</div>  
+                    <div class="x-titlebar-right  ciiqumm" __cid="ciiqumm"> 
+                      <div class="empty ciiqumm" __cid="ciiqumm"/>  
+                      <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-sm btn-only-icon ciiqumm" xid="addBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:addBtnClick" data-config="{&quot;icon&quot;:&quot;icon-android-add&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="ciiqumm"> 
+                        <i xid="i2" class="icon-android-add ciiqumm" __cid="ciiqumm"/>  
+                        <span xid="span2" __cid="ciiqumm" class="ciiqumm"/> 
+                      </a> 
+                    </div> 
+                  </div> 
+                </div>  
+                <div class="x-panel-content x-scroll-view ciiqumm" xid="content1" _xid="C7C300BF75500001F1B1302F17C11C2E" style="bottom: 0px; background-size: cover; background-image: url(http://localhost:40641/x5/UI2/v_/note/none);" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="ciiqumm"> 
+                  <div class="x-scroll ciiqumm" component="$model/UI2/system/components/justep/scrollView/scrollView" xid="scrollView1" data-bind="component:{name:'$model/UI2/system/components/justep/scrollView/scrollView'}" __cid="ciiqumm"> 
+                    <div class="x-content-center x-pull-down container ciiqumm" xid="div1" __cid="ciiqumm"> 
+                      <i class="x-pull-down-img glyphicon x-icon-pull-down ciiqumm" xid="i3" __cid="ciiqumm"/>  
+                      <span class="x-pull-down-label ciiqumm" xid="span3" __cid="ciiqumm">下拉刷新...</span> 
+                    </div>  
+                    <div class="x-scroll-content ciiqumm" xid="div2" __cid="ciiqumm"> 
+                      <div component="$model/UI2/system/components/justep/list/list" class="x-list ciiqumm" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;accData&quot;,&quot;filter&quot;:&quot; $row.val(\&quot;username\&quot;) ==  $model.modelParamsReceive(event)&quot;}" __cid="ciiqumm"> 
+                        <ul class="x-list-template hide ciiqumm" xid="listTemplateUl1" __cid="ciiqumm" data-bind="foreach:{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}"> 
+                          <li xid="li1" __cid="ciiqumm" class="ciiqumm"> 
+                            <div component="$model/UI2/system/components/justep/row/row" class="x-row ciiqumm" xid="row1" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="ciiqumm"> 
+                              <div class="x-col ciiqumm" xid="col1" __cid="ciiqumm" data-bind="event:{click:$model._callModelFn.bind($model, 'editacc')}"> 
+                                <div component="$model/UI2/system/components/justep/row/row" class="x-row ciiqumm" xid="row2" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="ciiqumm"> 
+                                  <div class="x-col ciiqumm" xid="col4" __cid="ciiqumm"> 
+                                    <div component="$model/UI2/system/components/justep/output/output" class="x-output ciiqumm" xid="output1" style="font-size:x-large;" data-bind="component:{ref:ref(&quot;fClass&quot;),name:'$model/UI2/system/components/justep/output/output'},style:{color:  val(&quot;fType&quot;)=='收入'?'green':'brown'}" __cid="ciiqumm"/> 
+                                  </div>  
+                                  <div class="x-col ciiqumm" xid="col5" __cid="ciiqumm"> 
+                                    <div component="$model/UI2/system/components/justep/output/output" class="x-output ciiqumm" xid="output2" style="font-size:x-large;" data-bind="component:{ref:ref(&quot;fMoney&quot;),name:'$model/UI2/system/components/justep/output/output'},style:{color:  val(&quot;fType&quot;)=='收入'?'green':'brown'}" __cid="ciiqumm"/> 
+                                  </div> 
+                                </div>  
+                                <div component="$model/UI2/system/components/justep/row/row" class="x-row ciiqumm" xid="row3" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="ciiqumm"> 
+                                  <div class="x-col ciiqumm" xid="col7" __cid="ciiqumm"> 
+                                    <div component="$model/UI2/system/components/justep/output/output" class="x-output ciiqumm" xid="output3" data-bind="component:{ref:ref(&quot;fDescription&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="ciiqumm"/> 
+                                  </div>  
+                                  <div class="x-col ciiqumm" xid="col8" __cid="ciiqumm"> 
+                                    <div component="$model/UI2/system/components/justep/output/output" class="x-output ciiqumm" xid="output4" data-bind="component:{ref:ref(&quot;fDate&quot;),name:'$model/UI2/system/components/justep/output/output'}" __cid="ciiqumm"/> 
+                                  </div> 
+                                </div> 
+                              </div>  
+                              <div class="x-col x-col-fixed x-col-center ciiqumm" xid="col3" style="width:auto;" __cid="ciiqumm"> 
+                                <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon ciiqumm" xid="delBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:delBtnClick" data-config="{&quot;icon&quot;:&quot;icon-android-close&quot;,&quot;label&quot;:&quot;button&quot;}" __cid="ciiqumm"> 
+                                  <i xid="i1" class="icon-android-close ciiqumm" __cid="ciiqumm"/>  
+                                  <span xid="span1" __cid="ciiqumm" class="ciiqumm"/> 
+                                </a> 
+                              </div> 
+                            </div> 
+                          </li> 
+                        </ul> 
+                      </div> 
+                    </div>  
+                    <div class="x-content-center x-pull-up ciiqumm" xid="div3" __cid="ciiqumm"> 
+                      <span class="x-pull-up-label ciiqumm" xid="span4" __cid="ciiqumm">加载更多...</span> 
+                    </div> 
+                  </div> 
+                </div>  
+                <style __cid="ciiqumm" class="ciiqumm">.x-panel.pceiqeUf-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pceiqeUf-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pceiqeUf-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pceiqeUf-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pceiqeUf-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pceiqeUf-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pceiqeUf-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pceiqeUf-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pceiqeUf-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+              </div> 
+            </div>
+          </div>
+        </div>
+      </div> 
+    </div> 
+  </div> 
+</div>

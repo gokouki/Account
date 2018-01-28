@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" design="device:m;" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="c7jqQ7f" class="c7jqQ7f" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/bootstrap/form/form,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/input/input,$model/UI2/system/components/justep/windowDialog/windowDialog,$model/UI2/system/components/justep/messageDialog/messageDialog,$model/UI2/system/components/justep/input/password,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/data/baasData,">  
+  <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">null</style>  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model1" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="c7jqQ7f" class="c7jqQ7f"/>  
+  <span xmlns="" component="$model/UI2/system/components/justep/messageDialog/messageDialog" xid="messageDialog" style="left:9px;top:351px;" data-bind="component:{name:'$model/UI2/system/components/justep/messageDialog/messageDialog'}" data-config="{&quot;type&quot;:&quot;OK&quot;}" __cid="c7jqQ7f" class="c7jqQ7f"> 
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal-overlay c7jqQ7f" __cid="c7jqQ7f"></div>  
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-modal c7jqQ7f" __cid="c7jqQ7f">  
+      <div class="x-modal-inner c7jqQ7f" __cid="c7jqQ7f"> 
+        <div class="x-modal-title c7jqQ7f" __cid="c7jqQ7f"/>  
+        <div class="x-modal-text c7jqQ7f" __cid="c7jqQ7f"/>  
+        <input class="x-modal-prompt-input c7jqQ7f" type="text" __cid="c7jqQ7f"/> 
+      </div>  
+      <div class="x-modal-buttons c7jqQ7f" __cid="c7jqQ7f"> 
+        <a class="x-modal-button x-modal-button-bold OK c7jqQ7f" value="ok" __cid="c7jqQ7f">确定</a>  
+        <a class="x-modal-button x-modal-button-bold Yes c7jqQ7f" value="yes" __cid="c7jqQ7f">是</a>  
+        <a class="x-modal-button x-modal-button-bold No c7jqQ7f" value="no" __cid="c7jqQ7f">否</a>  
+        <a class="x-modal-button x-modal-button-bold Cancel c7jqQ7f" value="cancel" __cid="c7jqQ7f">取消</a> 
+      </div> 
+    </div> 
+  </span>  
+  <span xmlns="" component="$model/UI2/system/components/justep/windowDialog/windowDialog" xid="windowDialog1" data-bind="component:{name:'$model/UI2/system/components/justep/windowDialog/windowDialog'}" data-config="{&quot;src&quot;:&quot;$model/UI2/acc/list.w&quot;}" __cid="c7jqQ7f" class="c7jqQ7f"> 
+    <result concept="userData" operation="edit" origin="baasData1" xid="default1" __cid="c7jqQ7f" class="c7jqQ7f"> 
+      <mapping from="userID" to="userID" locator="true" xid="default2" __cid="c7jqQ7f" class="c7jqQ7f"/> 
+    </result>  
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog-overlay c7jqQ7f" __cid="c7jqQ7f"></div>  
+    <div xmlns:xhtml="http://www.w3.org/1999/xhtml" class="x-dialog c7jqQ7f" style="display:none;" __cid="c7jqQ7f">  
+      <div class="x-dialog-title c7jqQ7f" __cid="c7jqQ7f"> 
+        <button class="close c7jqQ7f" __cid="c7jqQ7f"> 
+          <span __cid="c7jqQ7f" class="c7jqQ7f">×</span> 
+        </button>  
+        <div class="x-dialog-title-text c7jqQ7f" __cid="c7jqQ7f"/> 
+      </div>  
+      <div class="x-dialog-body c7jqQ7f" __cid="c7jqQ7f"/> 
+    </div> 
+  </span>  
+  <div xmlns="" component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full c7jqQ7f" xid="contents1" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0}" __cid="c7jqQ7f"> 
+    <div class="x-contents-content active c7jqQ7f" xid="content1" style="background-image: url(@justepContextPath@/v_939c0531fcbb46dcb36e0d1f7cfdfa4fl_zh_CNs_d_m/acc/img/loginbg4.jpg);" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="c7jqQ7f"> 
+      <div xid="div1" style="margin:10px 50px 0px 50px;" align="center" __cid="c7jqQ7f" class="c7jqQ7f"> 
+        <img src="@justepContextPath@/v_7086f8af1d244511b96a7ce4fe7db997l_zh_CNs_d_m/acc/img/qztc.jpg" alt="" xid="image1" height="250" __cid="c7jqQ7f" class="c7jqQ7f"/> 
+      </div>  
+      <div class="form-vertical c7jqQ7f" component="$model/UI2/system/components/bootstrap/form/form" xid="form1" data-bind="component:{name:'$model/UI2/system/components/bootstrap/form/form'}" __cid="c7jqQ7f"> 
+        <div xid="div12" class="form-group c7jqQ7f" style="margin-right:auto;margin-left:auto;width:95%;" __cid="c7jqQ7f"> 
+          <label xid="label4" class="sr-only c7jqQ7f" __cid="c7jqQ7f">用户名</label>  
+          <div xid="div14" class="input-group c7jqQ7f" __cid="c7jqQ7f"> 
+            <div xid="div15" class="input-group-addon c7jqQ7f" __cid="c7jqQ7f"> 
+              <span class="glyphicon glyphicon-user c7jqQ7f" __cid="c7jqQ7f"/> 
+            </div>  
+            <input component="$model/UI2/system/components/justep/input/input" class="form-control c7jqQ7f" xid="username" data-bind="component:{ref:$model.userData.ref(&quot;username&quot;),name:'$model/UI2/system/components/justep/input/input'}" data-config="{&quot;placeHolder&quot;:&quot;请输入用户名&quot;}" __cid="c7jqQ7f"/> 
+          </div> 
+        </div>  
+        <div xid="div13" class="form-group c7jqQ7f" style="margin-right:auto;margin-left:auto;width:95%;" __cid="c7jqQ7f"> 
+          <label xid="label5" class="sr-only c7jqQ7f" __cid="c7jqQ7f">密码</label>  
+          <div xid="div16" class="input-group c7jqQ7f" __cid="c7jqQ7f"> 
+            <div xid="div17" class="input-group-addon c7jqQ7f" __cid="c7jqQ7f"> 
+              <span class="glyphicon glyphicon-edit c7jqQ7f" __cid="c7jqQ7f"/> 
+            </div>  
+            <input component="$model/UI2/system/components/justep/input/password" class="form-control c7jqQ7f" xid="password" type="password" data-bind="component:{ref:$model.userData.ref(&quot;userpass&quot;),name:'$model/UI2/system/components/justep/input/password'}" data-config="{&quot;placeHolder&quot;:&quot;请输入密码&quot;}" __cid="c7jqQ7f"/> 
+          </div> 
+        </div> 
+      </div>  
+      <div component="$model/UI2/system/components/justep/row/row" class="x-row c7jqQ7f" xid="row4" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="c7jqQ7f"> 
+        <div class="x-col c7jqQ7f" xid="col10" style="text-align:center;" __cid="c7jqQ7f"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn x-blue btn-block c7jqQ7f" xid="loginBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:loginBtnClick" data-config="{&quot;label&quot;:&quot;登录记账本&quot;}" __cid="c7jqQ7f"> 
+            <i xid="i1" __cid="c7jqQ7f" class="c7jqQ7f"/>  
+            <span xid="span1" __cid="c7jqQ7f" class="c7jqQ7f">登录记账本</span> 
+          </a>  
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-xs pull-left c7jqQ7f" xid="button1" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button1Click" data-config="{&quot;label&quot;:&quot;还没有账号？去注册&quot;}" __cid="c7jqQ7f"> 
+            <i xid="i2" __cid="c7jqQ7f" class="c7jqQ7f"/>  
+            <span xid="span3" __cid="c7jqQ7f" class="c7jqQ7f">还没有账号？去注册</span> 
+          </a> 
+        </div> 
+      </div>  
+      <div xid="div3" style="margin:50px 20px 50px 20px;height:50px;text-align:center;" __cid="c7jqQ7f" class="c7jqQ7f"> 
+        <span xid="span2" __cid="c7jqQ7f" class="c7jqQ7f">© 王巧辉 &amp; 丁昌盛</span> 
+      </div> 
+    </div> 
+  </div> 
+</div>
